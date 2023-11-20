@@ -1,0 +1,195 @@
+html {
+    scroll-behavior: smooth;    
+}
+
+body {
+    background-color: #1a2a42;
+    color: #ffffff;
+    font-family: 'Ubuntu', sans-serif;
+}
+
+.navbar {
+    background-color: #0d1b2a !important;
+}
+
+.navbar-brand, .navbar-nav .nav-link {
+    color: #ffffff !important;
+}
+
+.navbar-nav .nav-link:hover {
+    color: #cccccc !important;
+}
+
+.hero-section {
+    background: #1a2a42;
+    padding: 40px 0;
+    color: #ffffff;
+}
+
+.foto-perfil {
+    max-width: 200px;
+    height: auto;
+    border-radius: 50%;
+    display: block;
+    margin: 0 auto;
+}
+
+.content-section {
+    padding: 20px 0;
+    background-color: #1a2a42;
+    color: #ffffff;
+}
+
+footer {
+    background-color: #0d1b2a;
+    color: #ffffff;
+    padding: 20px 0;
+}
+
+h1, h2 {
+    color: #ffffff;
+}
+
+#descripcion p, #origenes p, #inter p {
+    text-align: justify;
+}
+
+.text-center {
+    text-align: center;
+}
+
+.image-container img {
+    display: block;
+    margin: 0 auto;
+    max-width: 50%;
+    height: auto;
+}
+
+.social-icons {
+    text-align: center;
+    margin: 20px 0;
+}
+
+.social-icons a {
+    color: #ffffff;
+    margin: 0 10px;
+}
+
+.social-icons a:hover, .social-icons a:focus {
+    text-decoration: none;
+    color: #cccccc;
+}
+
+footer p {
+    margin-bottom: 0.5rem;
+}
+
+footer .social-icons {
+    margin-top: 0.5rem; 
+}
+
+footer .social-icons a {
+    text-decoration: none;
+    color: #ffffff;
+    font-size: 24px; 
+}
+
+footer p:last-of-type {
+    margin-bottom: 0;
+}
+
+#contactos input[type="text"],
+#contactos input[type="email"],
+#contactos textarea {
+    width: 35%; 
+    padding: 10px; 
+    margin-bottom: 15px; 
+    background-color: #ffffff;
+    color: #000000;
+    border: 1px solid #0d1b2a;
+}
+
+#contactos textarea {
+    height: 150px;
+}
+
+#contactos input[type="submit"], #contactos button {
+    background-color: #0d1b2a;
+    color: #ffffff;
+    border: none;
+    padding: 10px 12px; 
+    text-transform: uppercase; 
+    letter-spacing: 1px; 
+    font-weight: bold; 
+    border-radius: 5px; 
+    cursor: pointer; 
+    transition: background-color 0.3s ease; 
+    margin-right: 5px; 
+}
+
+#contactos input[type="submit"]:hover, #contactos button:hover {
+    background-color: #1e2f47; 
+    color: #ffffff; 
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.card {
+    background-color: #1e2f47; 
+    color: #ffffff; 
+}
+
+.card:hover {
+    transform: translateY(-10px); 
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5); 
+}
+
+.card-title {
+    font-weight: bold;
+}
+
+.project-card {
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); 
+    transition: transform 0.3s ease, box-shadow 0.3s ease; 
+    position: relative;
+    overflow: hidden;
+}
+
+.project-hover-overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: rgba(0, 0, 0, 0.7); 
+    color: #ffffff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    opacity: 0;
+    transition: opacity 0.3s ease;
+}
+
+.project-card:hover, .project-hover-overlay {
+    opacity: 1; 
+}
+
+.project-card:hover {
+    transform: scale(1.05); 
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.3); 
+}
+
+.project-card img {
+    width: 100%; 
+    height: auto; 
+    border-radius: 5px; 
+    transition: transform 0.3s ease;
+}
+
+.project-name {
+    font-size: 20px;
+    text-align: center;
+}
+
+.project-card:hover img {
+    transform: scale(1.1); 
+}
